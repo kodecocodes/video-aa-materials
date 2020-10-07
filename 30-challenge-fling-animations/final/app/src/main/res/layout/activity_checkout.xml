@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  tools:context="com.raywenderlich.android.foodmart.ui.checkout.CheckoutActivity">
+
+  <View
+    android:id="@+id/block"
+    android:layout_width="@dimen/block_width"
+    android:layout_height="@dimen/block_height"
+    android:layout_marginTop="@dimen/padding_standard"
+    android:background="@color/colorAccent"
+    app:layout_constraintTop_toTopOf="parent" />
+
+  <ImageView
+    android:id="@+id/cookie"
+    android:layout_width="@dimen/donut_size"
+    android:layout_height="@dimen/donut_size"
+    android:layout_marginBottom="@dimen/donut_size"
+    android:contentDescription="@string/cookie"
+    android:src="@drawable/food_cookie"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent" />
+
+  <ImageView
+    android:id="@+id/donut"
+    android:layout_width="@dimen/donut_size"
+    android:layout_height="@dimen/donut_size"
+    android:layout_marginBottom="@dimen/donut_size"
+    android:contentDescription="@string/donut"
+    android:src="@drawable/food_donut"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

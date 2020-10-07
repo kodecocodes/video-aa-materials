@@ -1,0 +1,106 @@
+[
+  {
+    "id" : 1,
+    "name" : "Banana",
+    "image" : "food_banana",
+    "description" : "The banana is an edible fruit – botanically a berry – produced by several kinds of large herbaceous flowering plants in the genus Musa. In some countries, bananas used for cooking may be called plantains, in contrast to dessert bananas. The fruit is variable in size, color and firmness, but is usually elongated and curved, with soft flesh rich in starch covered with a rind which may be green, yellow, red, purple, or brown when ripe. The fruits grow in clusters hanging from the top of the plant. Almost all modern edible parthenocarpic (seedless) bananas come from two wild species – Musa acuminata and Musa balbisiana. The scientific names of most cultivated bananas are Musa acuminata, Musa balbisiana, and Musa × paradisiaca for the hybrid Musa acuminata × M. balbisiana, depending on their genomic constitution. The old scientific name Musa sapientum is no longer used.\n\nMusa species are native to tropical Indomalaya and Australia, and are likely to have been first domesticated in Papua New Guinea. They are grown in 135 countries, primarily for their fruit, and to a lesser extent to make fiber, banana wine and banana beer and as ornamental plants.",
+    "link": "https://en.wikipedia.org/wiki/Banana",
+    "category": "Healthy"
+  },
+  {
+    "id" : 2,
+    "name" : "Cheese",
+    "image" : "food_cheese",
+    "description" : "Cheese is a food derived from milk that is produced in a wide range of flavors, textures, and forms by coagulation of the milk protein casein. It comprises proteins and fat from milk, usually the milk of cows, buffalo, goats, or sheep. During production, the milk is usually acidified, and adding the enzyme rennet causes coagulation. The solids are separated and pressed into final form. Some cheeses have molds on the rind, the outer layer, or throughout. Most cheeses melt at cooking temperature.\n\nHundreds of types of cheese from various countries are produced. Their styles, textures and flavors depend on the origin of the milk (including the animal's diet), whether they have been pasteurized, the butterfat content, the bacteria and mold, the processing, and aging. Herbs, spices, or wood smoke may be used as flavoring agents. The yellow to red color of many cheeses, such as Red Leicester, is produced by adding annatto. Other ingredients may be added to some cheeses, such as black pepper, garlic, chives or cranberries.",
+    "link": "https://en.wikipedia.org/wiki/Cheese",
+    "category": "Snack"
+  },
+  {
+    "id" : 3,
+    "name" : "Cupcake",
+    "image" : "food_cupcake",
+    "description" : "A cupcake (also British English: fairy cake; Hiberno-English: bun; Australian English: fairy cake or patty cake) is a small cake designed to serve one person, which may be baked in a small thin paper or aluminum cup. As with larger cakes, icing and other cake decorations such as fruit and candy may be applied.\n\nThe earliest extant description of what is now often called a cupcake was in 1796, when a recipe for \"a light cake to bake in small cups\" was written in American Cookery by Amelia Simmons. The earliest extant documentation of the term cupcake itself was in \"Seventy-five Receipts for Pastry, Cakes, and Sweetmeats\" in 1828 in Eliza Leslie's Receipts cookbook.\n\nIn the early 19th century, there were two different uses for the term cup cake or cupcake. In previous centuries, before muffin tins were widely available, the cakes were often baked in individual pottery cups, ramekins, or molds and took their name from the cups they were baked in. This is the use of the name that has remained, and the name of \"cupcake\" is now given to any small, round cake that is about the size of a teacup. While English fairy cakes vary in size more than American cupcake, they are traditionally smaller and are rarely topped with elaborate icing.",
+    "link": "https://en.wikipedia.org/wiki/Cupcake",
+    "category": "Dessert"
+  },
+  {
+    "id" : 4,
+    "name" : "Pastry",
+    "image" : "food_pastry",
+    "description" : "Pastry is a dough of flour, water and shortening that may be savoury or sweetened. Sweetened pastries are often described as bakers' confectionery. The word \"pastries\" suggests many kinds of baked products made from ingredients such as flour, sugar, milk, butter, shortening, baking powder, and eggs. Small tarts and other sweet baked products are called pastries. The French word pâtisserie is also used in English (with or without the accent) for the same foods. Common pastry dishes include pies, tarts, quiches and pasties.\n\nPastry can also refer to the pastry dough, from which such baked products are made. Pastry dough is rolled out thinly and used as a base for baked products.\n\nPastry is differentiated from bread by having a higher fat content, which contributes to a flaky or crumbly texture. A good pastry is light and airy and fatty, but firm enough to support the weight of the filling. When making a shortcrust pastry, care must be taken to blend the fat and flour thoroughly before adding any liquid. This ensures that the flour granules are adequately coated with fat and less likely to develop gluten. On the other hand, overmixing results in long gluten strands that toughen the pastry. In other types of pastry such as Danish pastry and croissants, the characteristic flaky texture is achieved by repeatedly rolling out a dough similar to that for yeast bread, spreading it with butter, and folding it to produce many thin layers.",
+    "link": "https://en.wikipedia.org/wiki/Pastry",
+    "category": "Pastry"
+  },
+  {
+    "id" : 5,
+    "name" : "Pez",
+    "image" : "food_pez",
+    "description" : "Pez (trademarked PEZ in capitals) is the brand name of an Austrian candy and associated mechanical candy dispensers. The candy is a pressed, dry, straight-edged, curved-corner block (15 mm (5/8 inch) long, 8 mm (5/16 inch) wide, and 5 mm (3/16 inch) high), with Pez dispensers holding 12 Pez pieces.\n\nPez was invented in Austria, and later exported worldwide. The all-uppercase spelling of the logo echoes the trademark's style on the packaging and the dispensers, with the logo drawn in perspective and giving the appearance that the letters are built out of 44 brick-like Pez mints (14 bricks in the P and 15 in each of the E and Z).\n\nDespite the widespread recognition and popularity of the Pez dispenser, the company considers itself to be primarily a candy company, and over 3 billion bricks are consumed each year in the U.S. alone. Pez dispensers are part of popular culture in many nations, an example being 'Soul Candy' in Japanese manga series Bleach. Because of the large number of dispenser designs over the years, they are collected by enthusiasts.",
+    "link": "https://en.wikipedia.org/wiki/Pez",
+    "category": "Snack"
+  },
+  {
+    "id" : 6,
+    "name" : "Pizza",
+    "image" : "food_pizza",
+    "description" : "Pizza is a yeasted flatbread typically topped with tomato sauce and cheese and baked in an oven. It is commonly topped with a selection of meats, vegetables and condiments.\n\nThe term pizza was first recorded in the 10th century, in a Latin manuscript from Gaeta in Southern Lazio on the border with Campania. Modern pizza was invented in Naples, Campania, Southern Italy, and the dish and its variants have since become popular and common in many areas of the world. In 2009, upon Italy's request, Neapolitan pizza was safeguarded in the European Union as a Traditional Speciality Guaranteed dish. Associazione Verace Pizza Napoletana (True Neapolitan Pizza Association), a non-profit organization founded in 1984 with headquarters in Naples, aims to \"promote and protect... the true Neapolitan pizza\".\n\nPizza is sold fresh or frozen, either whole or in portions, and is a common fast food item in Europe and North America. Various types of ovens are used to cook them and many varieties exist. Several similar dishes are prepared from ingredients commonly used in pizza preparation, such as calzone and stromboli.",
+    "link": "https://en.wikipedia.org/wiki/Pizza",
+    "category": "Snack"
+  },
+  {
+    "id" : 7,
+    "name" : "Cookie",
+    "image" : "food_cookie",
+    "description" : "A cookie is a baked or cooked good that is small, flat and sweet. It usually contains flour, sugar and some type of oil or fat. It may include other ingredients such as raisins, oats, chocolate chips, nuts, etc.\n\nIn most English-speaking countries except for the US and Canada, crisp cookies are called biscuits. Chewier biscuits are sometimes called cookies even in the UK. Some cookies may also be named by their shape, such as date squares or bars.\n\nCookies or biscuits may be mass-produced in factories, made in small bakeries or home-made. Biscuit or cookie variants include sandwich biscuits, such as custard creams, Jammie Dodgers, Bourbons and Oreos, with marshmallow or jam filling and sometimes dipped in chocolate or another sweet coating. Cookies are often served with beverages such as milk, coffee or tea. Factory-made cookies are sold in grocery stores, convenience stores and vending machines. Fresh-baked cookies are sold at bakeries and coffeehouses, with the latter ranging from small business-sized establishments to multinational corporations such as Starbucks.",
+    "link": "https://en.wikipedia.org/wiki/Cookie",
+    "category": "Dessert"
+  },
+  {
+    "id" : 8,
+    "name" : "Sugar Cookie",
+    "image" : "food_cookie_star",
+    "description" : "A sugar cookie is a cookie with main ingredients like sugar, flour, butter, eggs, vanilla, and either baking powder or baking soda. Sugar cookies may be formed by hand or rolled and cut into shapes. They are commonly decorated with icing, sprinkles, or a combination of both. Decorative shapes and figures can be cut into the spread dough using a cookie cutter. In North America, sugar cookies are popular during the holidays of Christmas, Halloween, and Hannukah.",
+    "link": "https://en.wikipedia.org/wiki/Sugar_cookie",
+    "category": "Dessert"
+  },
+  {
+    "id" : 9,
+    "name" : "Pancakes",
+    "image" : "food_pancakes",
+    "description" : "A pancake (or hotcake, griddlecake, or flapjack) is a flat cake, often thin and round, prepared from a starch-based batter that may contain eggs, milk and butter and cooked on a hot surface such as a griddle or frying pan, often frying with oil or butter. In Britain, pancakes are often unleavened and resemble a crêpe. In North America, a leavening agent is used (typically baking powder). American pancakes are similar to Scotch pancakes or drop scones. Archaeological evidence suggests that pancakes were probably the earliest and most widespread cereal food eaten in prehistoric societies.\n\nThe pancake's shape and structure varies worldwide. A crêpe is a thin Breton pancake of French origin cooked on one or both sides in a special pan or crepe maker to achieve a lacelike network of fine bubbles. A well-known variation originating from southeast Europe is a palačinke, a thin moist pancake fried on both sides and filled with jam, cheese cream, chocolate, or ground walnuts, but many other fillings—sweet or savoury—can also be used. When potato is used as a major portion of the batter, the result is a potato pancake. Commercially prepared pancake mixes are available in some countries.\n\nPancakes may be served at any time of the day with a variety of toppings or fillings including jam, fruit, syrup, chocolate chips, or meat, but in America they are typically considered a breakfast food. Pancakes serve a similar function to waffles. In Britain and the Commonwealth, they are associated with Shrove Tuesday, commonly known as \"Pancake Day\", when, historically, perishable ingredients had to be used up before the fasting period of Lent.",
+    "link": "https://en.wikipedia.org/wiki/Pancake",
+    "category": "Pastry"
+  },
+  {
+    "id" : 10,
+    "name" : "Croissant",
+    "image" : "food_croissant",
+    "description" : "A croissant (US: /krwɑːˈsɒ̃/, /krəˈsɒnt/; French pronunciation: [kʁwa.sɑ̃] (About this sound listen)) is a buttery, flaky, viennoiserie pastry named for its well-known crescent shape. Croissants and other viennoiserie are made of a layered yeast-leavened dough. The dough is layered with butter, rolled and folded several times in succession, then rolled into a sheet, in a technique called laminating. The process results in a layered, flaky texture, similar to a puff pastry.\n\nCrescent-shaped food breads have been made since the Renaissance, and crescent-shaped cakes possibly since antiquity.\n\nCroissants have long been a staple of Austrian and French bakeries and pâtisseries. In the late 1970s, the development of factory-made, frozen, pre-formed but unbaked dough made them into a fast food which can be freshly baked by unskilled labor. The croissanterie was explicitly a French response to American-style fast food, and today 30–40% of the croissants sold in French bakeries and patisseries are baked from frozen dough.\n\nCroissants are a common part of a continental breakfast in France.",
+    "link": "https://en.wikipedia.org/wiki/Croissant",
+    "category": "Pastry"
+  },
+  {
+    "id" : 11,
+    "name" : "Donut",
+    "image" : "food_donut",
+    "description" : "A doughnut or donut (both: /ˈdoʊnət/ or /ˈdoʊnʌt/; see spelling differences) is a type of fried dough confectionery or dessert food. The doughnut is popular in many countries and prepared in various forms as a sweet snack that can be homemade or purchased in bakeries, supermarkets, food stalls, and franchised specialty outlets.\n\nDoughnuts are usually deep fried from a flour dough, and typically either ring-shaped or without a hole, and often filled. Other types of batters can also be used, and various toppings and flavorings are used for different types, such as sugar, chocolate, or maple glazing. Doughnuts may also include water, leavening, eggs, milk, sugar, oil, shortening, and natural or artificial flavors.\n\nThe two most common types are the ring doughnut and the filled doughnut, which is injected with fruit preserves, cream, custard, or other sweet fillings. Small pieces of dough are cooked as doughnut holes. Once fried, doughnuts may be glazed with a sugar icing, spread with icing or chocolate, or topped with powdered sugar or sprinkles or fruit. Other shapes include rings, balls, flattened spheres, twists, and other forms. Doughnut varieties are also divided into cake and yeast-risen type doughnuts. Donuts are often accompanied by coffee purchased at doughnut shops or fast food restaurants.",
+    "link": "https://en.wikipedia.org/wiki/Doughnut",
+    "category": "Dessert"
+  },
+  {
+    "id" : 12,
+    "name" : "Coffee",
+    "image" : "food_coffee",
+    "description" : "Coffee is a brewed drink prepared from roasted coffee beans, which are the seeds of berries from the Coffea plant. The genus Coffea is native to tropical Africa (specifically having its origin in Ethiopia and Sudan) and Madagascar, the Comoros, Mauritius, and Réunion in the Indian Ocean. The plant was exported from Africa to countries around the world and coffee plants are now cultivated in over 70 countries, primarily in the equatorial regions of the Americas, Southeast Asia, India, and Africa. The two most commonly grown are the highly regarded arabica, and the less sophisticated but stronger and more hardy robusta. Once ripe, coffee berries are picked, processed, and dried. Dried coffee seeds (referred to as beans) are roasted to varying degrees, depending on the desired flavor. Roasted beans are ground and brewed with near-boiling water to produce coffee as a beverage.\n\nCoffee is slightly acidic and can have a stimulating effect on humans because of its caffeine content. Coffee is one of the most popular drinks in the world. It can be prepared and presented in a variety of ways (e.g., espresso, French press, cafe latte, etc.). It is usually served hot, although iced coffee is also served. Clinical studies indicate that moderate coffee consumption is benign or mildly beneficial in healthy adults, with continuing research on whether long-term consumption inhibits cognitive decline during aging or lowers the risk of some forms of cancer.",
+    "link": "https://en.wikipedia.org/wiki/Coffee",
+    "category": "Healthy"
+  },
+  {
+    "id" : 13,
+    "name" : "Pear",
+    "image" : "food_pear",
+    "description" : "The pear is any of several tree and shrub species of genus Pyrus /ˈpaɪrəs/, in the family Rosaceae.\n\nIt is also the name of the pomaceous fruit of the trees. Several species of pear are valued for their edible fruit and juices, while others are cultivated as trees.\n\nThe pear is native to coastal and mildly temperate regions of the Old World, from western Europe and north Africa east right across Asia. It is a medium-sized tree, reaching 10–17 metres (33–56 ft) tall, often with a tall, narrow crown; a few species are shrubby.",
+    "link": "https://en.wikipedia.org/wiki/Pear",
+    "category": "Healthy"
+  }
+]

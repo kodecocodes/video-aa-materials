@@ -1,0 +1,22 @@
+<resources>
+  <string name="app_name">FoodMart</string>
+  <string name="content_description_food_image">Food Item</string>
+  <string name="more_info">More Info</string>
+  <string name="add_button">Add button</string>
+  <string name="cart">Cart</string>
+  <string name="cart_icon">Cart Icon</string>
+  <string name="menu_add_all">Add all to cart</string>
+  <string name="menu_remove_all">Remove all from cart</string>
+  <string name="added_to_cart">Added to cart</string>
+  <string name="removed_from_cart">Removed from cart</string>
+  <string name="checkout">CHECKOUT</string>
+  <string name="cart_title">Cart</string>
+  <string name="empty_state_text">No items in the cart.</string>
+  <string name="credit_card">Credit Card</string>
+  <string name="android_pay">Android Pay</string>
+  <string name="checkout_title">Checkout</string>
+  <string name="checkout_from_here">Checkout from here. :]</string>
+  <string name="categories">Categories</string>
+  <string name="close_payment_methods">Close Payment Methods</string>
+  <string name="happy_monster">Happy Monster</string>
+</resources>

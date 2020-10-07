@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="wrap_content"
+  android:layout_height="match_parent"
+  android:layout_gravity="center">
+
+  <ImageView
+    android:layout_width="@dimen/menu_item_icon_size"
+    android:layout_height="@dimen/menu_item_icon_size"
+    android:layout_gravity="center"
+    android:layout_marginEnd="@dimen/padding_large"
+    android:layout_marginStart="@dimen/padding_large"
+    android:contentDescription="@string/cart_icon"
+    android:src="@drawable/ic_shopping_cart_white" />
+
+  <FrameLayout
+    android:id="@+id/itemCountCircle"
+    android:layout_width="@dimen/item_count_circle_size"
+    android:layout_height="@dimen/item_count_circle_size"
+    android:layout_gravity="center_vertical|end"
+    android:layout_marginEnd="@dimen/padding_standard"
+    android:layout_marginTop="-14dp"
+    android:background="@drawable/circle"
+    android:visibility="invisible"
+    tools:visibility="visible">
+
+    <TextView
+      android:id="@+id/itemCount"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:textColor="@android:color/white"
+      android:textSize="@dimen/item_count_text_size"
+      tools:text="3" />
+
+  </FrameLayout>
+
+</FrameLayout>
