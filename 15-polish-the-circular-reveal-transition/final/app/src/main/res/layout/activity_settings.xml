@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  android:id="@+id/settingsRoot"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="@color/white">
+
+  <androidx.appcompat.widget.Toolbar
+    android:id="@+id/settingsToolbar"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:background="@color/design_default_color_primary"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:title="@string/settingsTitle"
+    app:titleTextColor="@color/white" />
+
+  <ImageView
+    android:id="@+id/settingsButton"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:src="@drawable/ic_settings_24"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintTop_toTopOf="parent" />
+
+  <LinearLayout
+    android:id="@+id/settingsOptions"
+    android:layout_width="0dp"
+    android:layout_height="0dp"
+    android:orientation="vertical"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@id/settingsToolbar">
+
+    <View
+      android:layout_width="match_parent"
+      android:layout_height="1dp"
+      android:background="@color/lightGray" />
+
+    <TextView
+      android:id="@+id/sleepAllPets"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:background="?attr/selectableItemBackground"
+      android:padding="@dimen/defaultMargin"
+      android:text="@string/putAllPetsToBed"
+      android:textStyle="bold" />
+
+    <View
+      android:layout_width="match_parent"
+      android:layout_height="1dp"
+      android:background="@color/lightGray" />
+
+    <TextView
+      android:id="@+id/wakeAllPets"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:background="?attr/selectableItemBackground"
+      android:padding="@dimen/defaultMargin"
+      android:text="@string/wakeUpAllPets"
+      android:textStyle="bold" />
+
+    <View
+      android:layout_width="match_parent"
+      android:layout_height="1dp"
+      android:background="@color/lightGray" />
+
+    <TextView
+      android:id="@+id/logOut"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:background="?attr/selectableItemBackground"
+      android:padding="@dimen/defaultMargin"
+      android:text="@string/logOut"
+      android:textStyle="bold" />
+
+    <View
+      android:layout_width="match_parent"
+      android:layout_height="1dp"
+      android:background="@color/lightGray" />
+  </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

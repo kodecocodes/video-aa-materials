@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:id="@+id/coordinatorRoot"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+
+  <com.google.android.material.appbar.AppBarLayout
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+
+    <FrameLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+
+      <TextView
+        android:id="@+id/petDetailsTitle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:gravity="start|center_vertical"
+        android:paddingStart="@dimen/defaultMargin"
+        android:paddingEnd="@dimen/defaultMargin"
+        android:text="@string/appName"
+        android:textAppearance="@style/TextAppearance.Widget.AppCompat.Toolbar.Title"
+        android:textColor="@color/white" />
+
+      <ImageView
+        android:id="@+id/petSleep"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:padding="@dimen/defaultMargin"
+        android:src="@drawable/ic_sunny_24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    </FrameLayout>
+  </com.google.android.material.appbar.AppBarLayout>
+
+  <ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:paddingBottom="@dimen/scrollingViewPadding">
+
+      <ImageView
+        android:id="@+id/petImage"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/petDetailsPetImageHeight"
+        android:layout_marginTop="@dimen/bigMargin"
+        android:transitionName="@string/transitionPetAvatar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:src="@drawable/bug" />
+
+      <TextView
+        android:id="@+id/petName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/defaultMargin"
+        android:textSize="@dimen/petNameTextSize"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/petImage"
+        tools:text="Bug" />
+
+      <TextView
+        android:id="@+id/petDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/defaultMargin"
+        android:gravity="center"
+        android:paddingStart="@dimen/defaultMargin"
+        android:paddingTop="@dimen/defaultMargin"
+        android:paddingEnd="@dimen/defaultMargin"
+        android:textSize="@dimen/petDescriptionTextSize"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/petName"
+        tools:text="When not causing headaches for developers all over the world, this playful little bug is often found on leaves or trees just hanging around!" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+  </ScrollView>
+
+  <com.google.android.material.floatingactionbutton.FloatingActionButton
+    android:id="@+id/feedPetButton"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom|end"
+    android:layout_margin="@dimen/defaultMargin"
+    android:src="@drawable/ic_fast_food_24"
+    app:fabSize="normal" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

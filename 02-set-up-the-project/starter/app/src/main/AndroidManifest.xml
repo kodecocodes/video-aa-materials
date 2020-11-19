@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+  package="com.raywenderlich.android.menagerie">
+
+  <application
+    android:name=".App"
+    android:allowBackup="true"
+    android:icon="@mipmap/ic_launcher"
+    android:label="@string/appName"
+    android:roundIcon="@mipmap/ic_launcher_round"
+    android:supportsRtl="true"
+    android:theme="@style/Theme.Menagerie">
+    <activity
+      android:name=".ui.login.LoginActivity"
+      android:label="@string/appName"
+      android:theme="@style/Theme.Menagerie.NoActionBar">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+    <activity android:name=".ui.petDetails.PetDetailsActivity" />
+    <activity android:name=".ui.feedPet.FeedPetActivity" />
+    <activity android:name=".ui.main.MainActivity" />
+    <activity android:name=".ui.settings.SettingsActivity" />
+  </application>
+
+</manifest>

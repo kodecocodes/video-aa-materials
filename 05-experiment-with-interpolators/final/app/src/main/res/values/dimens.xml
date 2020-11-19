@@ -1,0 +1,19 @@
+<resources>
+  <!-- Default screen margins, per the Android Design guidelines. -->
+  <dimen name="appbarPadding">16dp</dimen>
+  <dimen name="fabMargin">16dp</dimen>
+  <dimen name="appbarPaddingTop">8dp</dimen>
+  <dimen name="smallPadding">8dp</dimen>
+  <dimen name="defaultMargin">16dp</dimen>
+  <dimen name="petDetailsPetImageHeight">400dp</dimen>
+  <dimen name="bigMargin">48dp</dimen>
+  <dimen name="scrollingViewPadding">96dp</dimen>
+  <dimen name="itemPetNameTextSize">22sp</dimen>
+  <dimen name="petNameTextSize">26sp</dimen>
+  <dimen name="petDescriptionTextSize">22sp</dimen>
+  <dimen name="petAvatarItemHeight">150dp</dimen>
+  <dimen name="minActionWidth">48dp</dimen>
+  <dimen name="minActionHeight">48dp</dimen>
+  <dimen name="feedPetAvatarSize">150dp</dimen>
+  <dimen name="feedPetCookieSize">50dp</dimen>
+</resources>

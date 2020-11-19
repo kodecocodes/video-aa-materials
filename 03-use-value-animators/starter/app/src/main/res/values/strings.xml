@@ -1,0 +1,13 @@
+<resources>
+  <string name="appName">Menagerie</string>
+  <string name="tabMyPets">My Pets</string>
+  <string name="tabSleepingPets">Sleeping Pets</string>
+  <string name="logIn">Log In</string>
+  <string name="settingsTitle">Settings</string>
+  <string name="putAllPetsToBed">Put all pets to bed</string>
+  <string name="wakeUpAllPets">Wake up all pets</string>
+  <string name="logOut">Log out</string>
+  <string name="feedPetTitle">Feed %1$s</string>
+  <string name="petDetailsTitle">%1$s Details</string>
+  <string name="cannotFeedSleepingPetMessage">You can not feed a sleeping pet!</string>
+</resources>
